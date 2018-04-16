@@ -1,0 +1,101 @@
+ body { 
+/* background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");*/
+  background-image: url("img/11.jpg");
+
+  background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+ }
+
+iframe{
+	width: 120;
+	height: 75;
+}
+#formula,#twt,#mpa{
+	width: 900;
+	height: 120;
+	margin: 0 auto;
+}
+
+#busqueda{
+	width: 90%;
+}
+#tamanio{
+	width: 50%;
+}
+#formula2,#twt{
+	width: 900;
+	height: 350;
+	margin: 0 auto;
+	
+}
+/* #map{ */
+	/* width: 900; */
+	/* height: 350; */
+	/* margin: 0 auto; */
+	 /* padding: 0; */
+/* } */
+.twti{
+	width: 100px;
+	height: 100px;
+}
+
+#id01,#id02,#map{
+height: 300px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+}
+
+
+
+
+.box-blue {
+margin:0 0 25px;
+overflow:hidden;
+padding:20px;
+background-color:#6BD5F1;
+border:1px solid #afcde3;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.striker{
+	width: 180px;
+	height: 90px;
+}
+
+
+    header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+       
