@@ -179,7 +179,7 @@ LUIS SANCHEZ JUAREZ</p></a>
      
 
 
-</div>
+
 
           
 
@@ -420,7 +420,7 @@ var markers = [];
 
 
 
-    var url4 = "http://localhost/twitter4/callback.php?valorFun=" + search;
+    var url4 = "https://strikerpop.herokuapp.com/callback.php?valorFun=" + search;
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (xhr.readyState === 4) {

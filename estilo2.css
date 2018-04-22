@@ -18,8 +18,8 @@ background-size: cover;
  }
 
 iframe{
-	width: 120;
-	height: 75;
+	width: 150;
+	height: 85;
 }
 #formula{
 	width: 90%;
@@ -197,9 +197,10 @@ border-radius: 5px;
 
 .caja{
 	
-	margin:0 auto;
-	width:90%;
+
+	
 	background: white;
+	height: 100%;
 	opacity: 0.9;
     filter: alpha(opacity=50)
 /*border-radius:7px;*/
@@ -207,9 +208,15 @@ border-radius: 5px;
 
 .caja-input{
 
-padding: 10px 30px;
-display: flex;
-flex-wrap: wrap;
+
+
+
+margin:0 auto;
+	
+	background: white;
+	
+	opacity: 0.9;
+    filter: alpha(opacity=50)
 
 }
 
