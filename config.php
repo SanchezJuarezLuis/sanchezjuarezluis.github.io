@@ -17,7 +17,7 @@ return [
     'consumer_secret'   => 'rt0wQv0mdDrKJ5p0PFcNR7RSmlSeUKfYaYhxjYaAlIBSMSEi6l',
  
     //
-    'url_login'         => 'https://strikerpop.herokuapp.com/index.html',
+    'url_login'         => 'https://strikerpop.herokuapp.com/index.php',
     'url_callback'      => 'https://strikerpop.herokuapp.com/ready.php'
 ];
 ?>

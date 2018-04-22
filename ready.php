@@ -650,6 +650,6 @@ var twt3 = document.querySelector('#twt3');
     </script>
 	<?php
 	}else{
-	header('Location: index.html');
+	header('Location: index.php');
 	}?>
 
