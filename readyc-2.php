@@ -46,9 +46,7 @@ if(!empty('oauth_verifier') && !empty($_SESSION['oauth_token']) && !empty($_SESS
 <!--   <link rel="stylesheet" type="text/css" href="metro/css/metro.min.css">
     <link rel="stylesheet" type="text/css" href="boot/css/bootstrap.min.css"> -->
 
-
-
-
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
  <script src="superlooper.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -63,59 +61,51 @@ if(!empty('oauth_verifier') && !empty($_SESSION['oauth_token']) && !empty($_SESS
   <!-- Page Layout here -->
     <div class="row">
 
-      <div class="col s3" id="panel1">
+      <div class="col s3">
         <!-- Grey navigation panel -->
 
 
 
-        <img  class="striker" src="img/striker1.png"/> 
-       
+        <img  class="striker" src="img/striker1.png"/>
+
     
 
+     <p>LUIS SANCHEZ JUAREZ</p>
+	 
+	 <div class="panel panel-primary">
+  <div class="panel-body">
+    Contenido del panel
+  </div>
+  <div class="panel-footer">Pie del panel</div>
+</div>
 
-     <p><a href="https://www.facebook.com/StriikerPop"> <img    class="face" src="img/face.png"/>
-LUIS SANCHEZ JUAREZ</p></a>
-<!-- 	 
-<div class="card">
-  <div class="card-header"><p><img src="img/user.png" class="imgRedonda"> usuario</p></div>
-  <div class="card-body">Content</div> 
-  <!<div class="card-footer">Footer</div>-->
 
-
-
-<ul class="">
-        <li> <button   class="btn-floating btn-large green darken-3 pulse" ><i class="material-icons">chevron_right</i></button><p>Realiza la busqueda de videos</p></li>
-      <li><button class="btn-floating btn-large red darken-4 pulse"  ><i class="material-icons">voice_chat</i></button><p>Ubica en el mapa los videos con Lozalizacion</p></li>
-    <li><button   class="btn-floating btn-large cyan pulse" ><i class="material-icons">person_pin</i></button><p>Busa Twitts y actualiza el mapa para ver aquellos con ubicacion</p></li>
-       
-      </ul>
 	 
 	 
    <img  class="twti" src="img/twit.png"/>
-      <img  class="gog" src="img/gog.jpg"/>
+     <p>creado por:Jack Dorsey en Marzo de 2006</p>
+
+  
+
+
     
-
-
-    <br>
   <p>&copy; Copyright Striker 2017 </p>
 
       </div>
 
       <div class="col s9">
-        <!-- Teal page content <h2 class="titu">BuscaPop</h2> -->
+        <!-- Teal page content  -->
  <div class="caja">
-	
+	<h2 class="titu">BuscaPop</h2>
  <div class="caja-input">
 
          <div id="formula" class="col s12 m9 l9 xl9">
      
 	  
 	  
-       <input type="text"   id="busqueda"  class="input-field col s12" placeholder="termino de busqueda" required>
+       <input type="text"   id="busqueda"  placeholder="termino de busqueda" required>
     
-       <input   id="tamanio" class="input-field col s6" placeholder="cantidad"  required>
-       <br></br>
-        <br></br>
+       <input type="numeric"  id="tamanio"  placeholder="cantidad" placeholder="cantidad videos" required>
 
       <button   class="btn-floating btn-large green darken-3 pulse" id="speak"><i class="material-icons">chevron_right</i></button>
       <button class="btn-floating btn-large red darken-4 pulse"  id="busq" onclick="obtener_videoUb()" ><i class="material-icons">voice_chat</i></button>
@@ -127,44 +117,33 @@ LUIS SANCHEZ JUAREZ</p></a>
         <li class="tab col s3 xl3"><a href="#formula2">Videos</a></li>
         <li class="tab col s3 xl3"><a href="#map">Mapa</a></li>
         <li class="tab col s3 xl3"><a href="#twt">Twits</a></li>
-
-       
       </ul>
 	  
 	  
-<div id="formula2" class="col-sm3">
+	  
+<div id="formula2" class="col s12 m9 l9 xl9">
 <!-- <h5>Videos Relacionados</h5> -->
-<div class="force-overflow">
-<div id="id02" class="scrollbar"></div>
-</div>
+<div id="id02" class="col s12 m9 l9 xl9"></div>
+
 </div>
 
-<div id="twt" class="col-sm3" >
+
+
+
+<div id="twt" class="col s12 m9 l9 xl9">
 <!-- <h5>Twits relacionados</h5> -->
- <div class="force-overflow">
-<div id="id01" class="scrollbar">
+<div id="id01" class="col s12 m9 l9 xl9">
+
+
+</div>
 </div>
 
-</div>
-</div>
-
-
-
-
-<div id="mpa" class="col-sm3">
+<div id="mpa" class="col s12 m9 l9 xl9">
  <!-- <h5>Resultados de busqueda</h5> -->
   <div id="map" class="col s12 m9 l9 xl9">
  
   </div>
 </div>
-
-<br>
-
-
-
- 
-          
-
       </div>
 
 </div>
@@ -172,7 +151,7 @@ LUIS SANCHEZ JUAREZ</p></a>
 
       </div>
 
-   
+    </div>
 
 </div>
 
@@ -181,7 +160,125 @@ LUIS SANCHEZ JUAREZ</p></a>
 
 </div>
 
-          
+
+  <div class="row">
+<!-- 
+    <div class="col s3 l3 m3 xl3 red lighten-4">
+
+        <img  class="striker" src="img/striker1.png"/>
+
+     <p>Striker todos los derechos reservados 2018</p>
+
+     <p>LUIS SANCHEZ JUAREZ</p>
+     
+
+     <p>creado por:Jack Dorsey en Marzo de 2006</p>
+     <img  class="twt" src="img/twit.png"/>
+    
+<p>kmm,jksmkjfrkfspfkgposglpdtgpotdd<br>
+kfmkmklsermksgkmdglk
+
+<br>
+fmsklmfklsfmksmvkl</p>
+    </div> -->
+
+  
+
+   
+<div class="col s12 m9 l9 xl9">
+  <div id="formula" class="col s12 m9 l9 xl9">
+      <!-- <h3>Video Turn</h3> -->
+       <!-- <input type="text"   id="busqueda"  placeholder="termino de busqueda" required> -->
+    
+       <!-- <input type="numeric"  id="tamanio"  placeholder="cantidad" required> -->
+
+      <!-- <button  class="button primary"  id="speak">Buscar</button> -->
+      <!-- <button  class="button yellow" id onclick="obtener_videoUb()" ="busq">Ubicar en mapa</button> -->
+      <!-- <button  onclick="" class="button secondary">Posiciona la ubicacion del Video</button> -->
+ 
+      <!-- </div> -->
+<br>
+</br>
+
+<br>
+</br>
+<br>
+</br>
+
+<br>
+</br>
+
+<br>
+</br>
+<br>
+</br>
+
+      
+    </div>
+   
+    
+
+   
+
+
+<!-- <div class="row">
+
+<div class=" col s12 m8 l10">
+<div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1">Test 1</a></li>
+        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+        <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
+        <li class="tab col s3"><a href="#test4">Test 4</a></li>
+      </ul>
+    </div>
+    <div id="test1" class="col s12">Test 1</div>
+    <div id="test2" class="col s12">Test 2</div>
+    <div id="test3" class="col s12">Test 3</div>
+    <div id="test4" class="col s12">Test 4</div>
+  </div>
+</div>
+
+</div> -->
+
+
+<!-- <div>
+    <form name="p4" class="caja" method="POST" action="callback.php">
+    <textarea  minlength="5" maxlength="60" name="twitt" placeholder="Escribe aqui!"></textarea> 
+    <input type="submit" name="twitear" value="twitear">
+  </form>
+  </div> -->
+
+
+<br>
+</br>
+<br>
+</br>
+<!-- 
+<style>
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>  -->
+
+
+
+
+
+
+
+
+
+
+  </div>
+
 
 </body>
 
@@ -350,7 +447,6 @@ function obtenerUbicacion(arr) {
     if(typeof arr.items[i].recordingDetails=='undefined'){
             
             console.log("sin resultados");
-
             
 }else{
       initMap( arr.items[i].recordingDetails.location.latitude, arr.items[i].recordingDetails.location.longitude,arr.items[i].player.embedHtml,iconoyt);
@@ -460,11 +556,17 @@ var iconotw="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circl
     for(i = 0; i < arro.length; i++) {
         //out3+= "<p class=\"box-blue\">"+arro[i].text+"</p><br>";
 
-  out3+=   
-"<div class=\"card\">"+
-  "<div class=\"card-header\"><p><img src=\"img/user.png\" class=\"imgRedonda\">"+arro[i].screen_name+"</p></div>"+
-  "<div class=\"card-body\">"+"<p class=\"box-blue\">"+arro[i].text+"</p></div>"+
-  "</div>";
+  out3+="<div class=\"card small \">"+
+      "<div class=\"card-image\">"+
+       "<img src=\"https://lorempixel.com/100/190/nature/6\">"+
+      "</div>"+
+      "<div class=\"card-stacked\">"+
+       " <div class=\"card-content\">"+
+       "<p>"+arro[i].text+"</p>"
+        "<p>I am a very simple card. I am good at containing small bits of information.</p>"+
+        "</div>"+
+      "</div>"+
+    "</div>";
 
 
       
@@ -650,6 +752,6 @@ var twt3 = document.querySelector('#twt3');
     </script>
 	<?php
 	}else{
-	header('Location: index.html');
+	header('Location: index.php');
 	}?>
 

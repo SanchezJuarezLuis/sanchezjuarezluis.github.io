@@ -1,0 +1,40 @@
+body { 
+ background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+  background-image: url("img/fon1.png");
+
+  background-position: center center;
+
+ 
+
+background-repeat: no-repeat;
+
+ 
+
+background-attachment: fixed;
+
+
+background-size: cover;
+
+ }
+ body {
+  font-family: Arial, Helvetica, Sans-serif;
+  color: white;
+  background-color: blue;
+}
+ .text1{
+ 	
+ 	padding: 50px;
+ 	margin-top: 50px auto;
+ font-size: 20px;
+ text-align: center;
+background-color:#6200ea;
+opacity: 0.6;
+    filter: alpha(opacity=50)
+ }
+ .boot{
+   margin: 1rem;
+  padding: 1rem;
+
+  /* IMPORTANTE */
+  text-align: center;
+ }
