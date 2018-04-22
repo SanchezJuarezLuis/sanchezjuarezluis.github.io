@@ -85,8 +85,8 @@ LUIS SANCHEZ JUAREZ</p></a>
 
 <ul class="">
         <li> <button   class="btn-floating btn-large green darken-3 pulse" ><i class="material-icons">chevron_right</i></button><p>Realiza la busqueda de videos</p></li>
-      <li><button class="btn-floating btn-large red darken-4 pulse"  ><i class="material-icons">voice_chat</i></button><p>Ubica en el mapa los videos con Lozalizacion</p></li>
-    <li><button   class="btn-floating btn-large cyan pulse" ><i class="material-icons">person_pin</i></button><p>Busa Twitts y actualiza el mapa para ver aquellos con ubicacion</p></li>
+      <li><button class="btn-floating btn-large red darken-4 pulse"  ><i class="material-icons">voice_chat</i></button><p>Ubica en el mapa los videos con Localizacion</p></li>
+    <li><button   class="btn-floating btn-large cyan pulse" ><i class="material-icons">person_pin</i></button><p>Busca Twitts y actualiza el mapa para ver aquellos con ubicacion</p></li>
        
       </ul>
 	 
